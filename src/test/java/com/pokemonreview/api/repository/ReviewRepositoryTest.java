@@ -22,7 +22,7 @@ public class ReviewRepositoryTest {
 	@Autowired
 	ReviewRepository reviewRepository;
 		
-	@Test
+	@Test 
     public void ReviewRepository_SaveAll_ReturnsSavedReview() {
         Review review = Review.builder().title("title").content("content").stars(5).build();
 
